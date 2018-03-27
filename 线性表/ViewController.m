@@ -17,7 +17,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
      
+    NSMutableArray *array = [NSMutableArray array];
+    [array addObject:@"1"];
     
+    [self sethh:array];
+    
+    NSLog(@"%@", array);
+}
+
+-(void)sethh:(NSMutableArray *)jjj{
+    
+    [jjj addObject:@"22"];
 }
 
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		152819052069301B0062E0AA /* StaticList.m in Sources */ = {isa = PBXBuildFile; fileRef = 152819042069301B0062E0AA /* StaticList.m */; };
 		15FD739020673ECE00915A5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FD738F20673ECE00915A5C /* AppDelegate.m */; };
 		15FD739320673ECE00915A5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FD739220673ECE00915A5C /* ViewController.m */; };
 		15FD739620673ECE00915A5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15FD739420673ECE00915A5C /* Main.storyboard */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		152819032069301B0062E0AA /* StaticList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaticList.h; sourceTree = "<group>"; };
+		152819042069301B0062E0AA /* StaticList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaticList.m; sourceTree = "<group>"; };
 		15FD738B20673ECE00915A5C /* 线性表.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "线性表.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15FD738E20673ECE00915A5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		15FD738F20673ECE00915A5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -72,6 +75,8 @@
 				15FD73A52067926C00915A5C /* ListeSquential.m */,
 				15FD73A72067B5B900915A5C /* ListNode.h */,
 				15FD73A82067B5B900915A5C /* ListNode.m */,
+				152819032069301B0062E0AA /* StaticList.h */,
+				152819042069301B0062E0AA /* StaticList.m */,
 				15FD739420673ECE00915A5C /* Main.storyboard */,
 				15FD739720673ECE00915A5C /* Assets.xcassets */,
 				15FD739920673ECE00915A5C /* LaunchScreen.storyboard */,
@@ -153,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15FD739320673ECE00915A5C /* ViewController.m in Sources */,
+				152819052069301B0062E0AA /* StaticList.m in Sources */,
 				15FD739E20673ECE00915A5C /* main.m in Sources */,
 				15FD73A62067926C00915A5C /* ListeSquential.m in Sources */,
 				15FD73A92067B5B900915A5C /* ListNode.m in Sources */,
