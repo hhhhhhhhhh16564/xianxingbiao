@@ -22,3 +22,7 @@ typedef struct {
 Status initStaticLinkList(StaticLinkList list);
 
 int malloc_SLL(StaticLinkList list);
+
+int ListLength(StaticLinkList list);
+
+Status staticListInsert(StaticLinkList L, int i, ElementType e);
