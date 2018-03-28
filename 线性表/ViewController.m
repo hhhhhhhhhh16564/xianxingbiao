@@ -22,7 +22,7 @@
     
     [self sethh:array];
     
-    NSLog(@"%@", array);
+//    NSLog(@"%@", array);
 }
 
 -(void)sethh:(NSMutableArray *)jjj{

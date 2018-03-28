@@ -17,6 +17,7 @@
 		15FD73A62067926C00915A5C /* ListeSquential.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FD73A52067926C00915A5C /* ListeSquential.m */; };
 		15FD73A92067B5B900915A5C /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FD73A82067B5B900915A5C /* ListNode.m */; };
 		4C25B4F6206A2BA900DF0685 /* NSData+SLAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C25B4F5206A2BA800DF0685 /* NSData+SLAddition.m */; };
+		4C636EEF206B8C88003482A6 /* CycleListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C636EEE206B8C88003482A6 /* CycleListNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		15FD73A82067B5B900915A5C /* ListNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListNode.m; sourceTree = "<group>"; };
 		4C25B4F4206A2BA800DF0685 /* NSData+SLAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SLAddition.h"; sourceTree = "<group>"; };
 		4C25B4F5206A2BA800DF0685 /* NSData+SLAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SLAddition.m"; sourceTree = "<group>"; };
+		4C636EED206B8C88003482A6 /* CycleListNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CycleListNode.h; sourceTree = "<group>"; };
+		4C636EEE206B8C88003482A6 /* CycleListNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CycleListNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 				15FD73A82067B5B900915A5C /* ListNode.m */,
 				152819032069301B0062E0AA /* StaticList.h */,
 				152819042069301B0062E0AA /* StaticList.m */,
+				4C636EED206B8C88003482A6 /* CycleListNode.h */,
+				4C636EEE206B8C88003482A6 /* CycleListNode.m */,
 				4C25B4F4206A2BA800DF0685 /* NSData+SLAddition.h */,
 				4C25B4F5206A2BA800DF0685 /* NSData+SLAddition.m */,
 				15FD739420673ECE00915A5C /* Main.storyboard */,
@@ -166,6 +171,7 @@
 				152819052069301B0062E0AA /* StaticList.m in Sources */,
 				4C25B4F6206A2BA900DF0685 /* NSData+SLAddition.m in Sources */,
 				15FD739E20673ECE00915A5C /* main.m in Sources */,
+				4C636EEF206B8C88003482A6 /* CycleListNode.m in Sources */,
 				15FD73A62067926C00915A5C /* ListeSquential.m in Sources */,
 				15FD73A92067B5B900915A5C /* ListNode.m in Sources */,
 				15FD739020673ECE00915A5C /* AppDelegate.m in Sources */,

@@ -123,6 +123,27 @@ Status clearList(LinkList * L){
     
 }
 
+// 获得链表的最中间的节点的值
+//利用快慢指针  慢指针每次1步， 快指针每次走两步，当快指针走到头时，慢指针就在中间
+
+Status getListMidNode(LinkList p, ElementType *e){
+
+    LinkList slow = p->next, quick=p->next;
+    
+    while (quick->next && quick) {
+        
+        quick = quick->next;
+        
+        if (quick->next) {
+            quick = quick->next;
+            slow = slow->next;
+        }
+    }
+    
+    *e = slow->data;
+    
+    return OK;
+}
 
 
 

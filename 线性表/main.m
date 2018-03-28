@@ -15,7 +15,13 @@
 int main(int argc, char * argv[]) {
     @autoreleasepool {
         
- 
+        LinkList p = NULL;
+        p  =  CreateListTail(p, 4);
+        LogListNode(p);
+        int e = 0;
+        getListMidNode(p, &e);
+        
+        NSLog(@"\n-----%d-------", e);
         
         
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
