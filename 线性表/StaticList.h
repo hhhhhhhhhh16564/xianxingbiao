@@ -26,3 +26,8 @@ int malloc_SLL(StaticLinkList list);
 int ListLength(StaticLinkList list);
 
 Status staticListInsert(StaticLinkList L, int i, ElementType e);
+Status staticListDelete(StaticLinkList L, int i);
+
+void StaticListFree_SLL(StaticLinkList L, int k);
+
+void staticListLog(StaticLinkList L);

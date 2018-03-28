@@ -10,12 +10,14 @@
 #import "AppDelegate.h"
 //#import "ListeSquential.h"
 #import "ListNode.h"
-
+#import "StaticList.h"
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
+        
  
-
+        
+        
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }

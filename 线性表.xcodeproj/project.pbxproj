@@ -16,6 +16,7 @@
 		15FD739E20673ECE00915A5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FD739D20673ECE00915A5C /* main.m */; };
 		15FD73A62067926C00915A5C /* ListeSquential.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FD73A52067926C00915A5C /* ListeSquential.m */; };
 		15FD73A92067B5B900915A5C /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FD73A82067B5B900915A5C /* ListNode.m */; };
+		4C25B4F6206A2BA900DF0685 /* NSData+SLAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C25B4F5206A2BA800DF0685 /* NSData+SLAddition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		15FD73A52067926C00915A5C /* ListeSquential.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListeSquential.m; sourceTree = "<group>"; };
 		15FD73A72067B5B900915A5C /* ListNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
 		15FD73A82067B5B900915A5C /* ListNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListNode.m; sourceTree = "<group>"; };
+		4C25B4F4206A2BA800DF0685 /* NSData+SLAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SLAddition.h"; sourceTree = "<group>"; };
+		4C25B4F5206A2BA800DF0685 /* NSData+SLAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SLAddition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				15FD73A82067B5B900915A5C /* ListNode.m */,
 				152819032069301B0062E0AA /* StaticList.h */,
 				152819042069301B0062E0AA /* StaticList.m */,
+				4C25B4F4206A2BA800DF0685 /* NSData+SLAddition.h */,
+				4C25B4F5206A2BA800DF0685 /* NSData+SLAddition.m */,
 				15FD739420673ECE00915A5C /* Main.storyboard */,
 				15FD739720673ECE00915A5C /* Assets.xcassets */,
 				15FD739920673ECE00915A5C /* LaunchScreen.storyboard */,
@@ -159,6 +164,7 @@
 			files = (
 				15FD739320673ECE00915A5C /* ViewController.m in Sources */,
 				152819052069301B0062E0AA /* StaticList.m in Sources */,
+				4C25B4F6206A2BA900DF0685 /* NSData+SLAddition.m in Sources */,
 				15FD739E20673ECE00915A5C /* main.m in Sources */,
 				15FD73A62067926C00915A5C /* ListeSquential.m in Sources */,
 				15FD73A92067B5B900915A5C /* ListNode.m in Sources */,
@@ -297,7 +303,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UJE89UGTBZ;
 				INFOPLIST_FILE = "线性表/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dfsgsdg.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -310,7 +318,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UJE89UGTBZ;
 				INFOPLIST_FILE = "线性表/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dfsgsdg.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
