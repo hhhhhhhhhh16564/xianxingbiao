@@ -20,22 +20,22 @@ typedef struct Node{
     struct Node * next;
 }Node, * LinkList;
 //获得第i个元素的值
-Status GetElement(LinkList L, int i, ElementType *e);
+Status GetCycleElement(LinkList L, int i, ElementType *e);
 
 // 插入一个元素
-Status ListInsert(LinkList L, int i , ElementType e);
+Status CycleListInsert(LinkList L, int i , ElementType e);
 
 //删除元素
-Status listDeleteElement(LinkList L, int i, ElementType *e);
+LinkList CyclelistDeleteElement(LinkList L, Node *deleteNode);
+
+
 
 //创建单链表
-LinkList CreateListTail(LinkList p, int n);
+LinkList CreateCycleListTail(LinkList * p);
 
-// 清除链表
-Status clearList(LinkList *L);
+ 
 
-void LogListNode(LinkList p);
+void LogCycleListNode(LinkList p);
 
-Status getListMidNode(LinkList p, ElementType *e);
 
 int cycleListGetLenth(LinkList L);
