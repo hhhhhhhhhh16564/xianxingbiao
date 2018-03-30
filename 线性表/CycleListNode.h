@@ -19,23 +19,39 @@ typedef struct Node{
     ElementType data;
     struct Node * next;
 }Node, * LinkList;
-//获得第i个元素的值
+//循环链表 获得第i个元素的值
 Status GetCycleElement(LinkList L, int i, ElementType *e);
 
-// 插入一个元素
+//循环链表 插入一个元素
 Status CycleListInsert(LinkList L, int i , ElementType e);
 
-//删除元素
+//循环链表 删除节点(获得该节点的前一个节点的值）
 LinkList CyclelistDeleteElement(LinkList L, Node *deleteNode);
 
-
-
-//创建单链表
+//循环链表  创建单链表
 LinkList CreateCycleListTail(LinkList * p);
 
  
-
+//循环链表  打印节点
 void LogCycleListNode(LinkList p);
 
-
+//循环链表   得到链表的长度
 int cycleListGetLenth(LinkList L);
+
+
+// 约瑟夫问题
+
+void JosephusProblem(LinkList L , int length, int n);
+
+
+
+
+
+
+
+
+
+
+
+
+

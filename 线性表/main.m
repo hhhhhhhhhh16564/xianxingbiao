@@ -16,44 +16,14 @@ int main(int argc, char * argv[]) {
     @autoreleasepool {
         LinkList p = NULL;
  
+        
+        
+        
+        
+        
+        
         CreateCycleListTail(&p);
-        
-   
-
-        
-
-        for (int i = 1; i <= 41; i++) {
-
-             CycleListInsert(p, i, i);
-         }
-  
-//        LogCycleListNode(p);
-        
- 
-        int i = 0;
-        int j = 0;
-        int k = 41;
-        
-        Node *tempNode = p;
-        while (k) {
-     
-            i++;
-            j++;
-            
-    
-            tempNode = tempNode->next;
-
-            if (j == 3) {
-
-             tempNode =  CyclelistDeleteElement(p, tempNode);
-                k--;
-                j = 0;
-            }
-  
-        }
-        
-
-         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
         
     }
 }
