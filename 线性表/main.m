@@ -16,14 +16,11 @@ int main(int argc, char * argv[]) {
     @autoreleasepool {
         LinkList p = NULL;
  
-        
-        
-        
-        
-        
-        
         CreateCycleListTail(&p);
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+//        magigian(p, 13);
+        JosephusProblem(p, 41, 3);
         
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+ 
     }
 }

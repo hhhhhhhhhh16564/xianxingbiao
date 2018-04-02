@@ -44,11 +44,9 @@ int cycleListGetLenth(LinkList L);
 void JosephusProblem(LinkList L , int length, int n);
 
 
+void magigian(LinkList L, int n);
 
-
-
-
-
+ 
 
 
 

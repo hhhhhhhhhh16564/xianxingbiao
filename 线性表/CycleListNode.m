@@ -166,3 +166,31 @@ void JosephusProblem(LinkList p , int length, int n){
     }
     
 }
+
+//魔术师发牌问题 假设13张牌 10966+1180
+void magigian(LinkList L, int n){
+    for (int i = 1; i <= n ; i++) {
+        CycleListInsert(L, i, 0);
+    }
+
+    Node *tempNode = L;
+ 
+        for (int i = 1; i <= n; i++) {
+            for (int j = 0; j < i; j++) {
+                tempNode = tempNode->next;
+                //如果节点指向头节点或者 该节点已经有值，则这次不算， 让j减少1
+                if (tempNode == L || tempNode->data != 0) {
+                    j--;
+                }
+                
+            }
+            tempNode->data = i;
+            
+        }
+// --1----8----2----5----10----3----12----11----9----4----7----6----13-----
+    LogCycleListNode(L);
+ 
+}
+
+ 
+
